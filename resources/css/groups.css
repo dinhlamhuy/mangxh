@@ -1,0 +1,45 @@
+body {
+    background-color: #e4e4ec;
+}
+
+.g-background {
+    width: 100%;
+    object-fit: cover !important;
+    height: 400px;
+    /* -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px rgb(177, 163, 163)); */
+    border-radius: 12px;
+}
+
+.btn-bg {
+    font-weight: bold;
+    color:#65676b;
+    padding: 15px 20px;
+}
+.btn-bg:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.btn-active {
+    border-bottom: 3px solid blue; 
+    background-color: #f8f9fa;
+    pointer-events: none;
+cursor: default;
+}
+.btn-bg:hover {
+    font-weight: bold;
+    color:#65676b;
+    background-color: #f8f9fa;
+}
+.netngang{
+    /* border-top: none;
+    border-bottom: 2px solid rgb(109, 100, 100); */
+    margin-top: 2px;
+    margin-bottom: 10px;
+
+
+}
+.btn-acco{
+    font-weight: bold;
+    color:#65676b;
+}
